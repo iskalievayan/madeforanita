@@ -1,6 +1,6 @@
 const translations = {
     vi: {
-        title: "Made For Anita 🎁",
+        title: "Made For Birganym 🎁",
         description: "Một món quà đầy yêu thương đang chờ bạn khám phá! Nhấn để xem lời chúc đặc biệt!",
         login: "Đăng nhập bằng Google",
         logout: "Đăng xuất",
@@ -273,7 +273,6 @@ const translations = {
 function setLanguage(lang) {
     document.documentElement.lang = lang;
     // Đổi title và meta
-    document.title = translations[lang].title;
     document.querySelector('meta[name="description"]').setAttribute('content', translations[lang].description);
 
     // Đổi các phần tử có data-i18n

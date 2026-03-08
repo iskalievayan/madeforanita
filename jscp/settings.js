@@ -16,19 +16,19 @@ let settings = {
     pages: [
         // --- Lembar 1 (data-page="0") ---
         { 
-            image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
+            image: './image/theend.JPG', // Menggantikan bolsw2.png (Index 0)
         },
         { 
-            image: './image/photos/b1.jpg', // Menggantikan lhvuck.png (Index 1)
+            image: './image/photos/b1.JPG', // Menggantikan lhvuck.png (Index 1)
         },
 
         // --- Lembar 2 (data-page="1") ---
         { 
-            image: './image/photos/b2.jpg', // Menggantikan fjr3qh.png (Index 2)
+            image: './image/photos/b2.JPG', // Menggantikan fjr3qh.png (Index 2)
             content: 'Happy 8 March 💗' 
         },
         { 
-            image: './image/photos/b3.jpg', // Menggantikan 8u5tf7.png (Index 3)
+            image: './image/photos/b3.JPG', // Menggantikan 8u5tf7.png (Index 3)
         },
 
         // --- Lembar 3 (data-page="2") ---
@@ -362,21 +362,21 @@ function initializeDefaultSettings() {
                 image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
             },
             { 
-                image: './image/photos/b1.jpg', // Menggantikan lhvuck.png (Index 1)
+                image: './image/photos/b1.JPG', // Menggantikan lhvuck.png (Index 1)
             },
 
             // --- Lembar 2 (data-page="1") ---
             { 
-                image: './image/photos/b2.jpg', // Menggantikan fjr3qh.png (Index 2)
+                image: './image/photos/b2.JPG', // Menggantikan fjr3qh.png (Index 2)
                 content: 'Happy 8 March Zhanym 💗' 
             },
             { 
-                image: './image/photos/b3.jpg', // Menggantikan 8u5tf7.png (Index 3)
+                image: './image/photos/b3.JPG', // Menggantikan 8u5tf7.png (Index 3)
             },
 
             // --- Lembar 3 (data-page="2") ---
             { 
-                image: './image/photos/b5.jpg', // Menggantikan tbutvj.png (Index 4)
+                image: './image/photos/b5.JPG', // Menggantikan tbutvj.png (Index 4)
                 content: 'As long as you’re smiling, I’m happy. Stay happy, my love.' 
             }
         ]
