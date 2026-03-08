@@ -131,7 +131,7 @@ function stopWebsite() {
     }
 }
 
-let matrixChars = "HAPPYBIRTHDAY".split("");
+let matrixChars = "HAPPY8MARCH".split("");
 function initMatrixRain() {
     const matrixCanvas = document.getElementById('matrix-rain');
     const matrixCtx = matrixCanvas.getContext('2d');

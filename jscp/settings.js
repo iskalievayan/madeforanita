@@ -346,10 +346,10 @@ function initializeDefaultSettings() {
     window.settings = {
         music: './music/hbdmusic1.mp3',
         countdown: 3,
-        matrixText: 'HAPPYBIRTHDAY',
+        matrixText: 'HAPPY8MARCH',
         matrixColor1: '#ff69b4', // Màu pink mẫu
         matrixColor2: '#ff1493', // Màu pink mẫu
-        sequence: 'HAPPY|BIRTHDAY|TO|ANITA|❤',
+        sequence: 'HAPPY|8 MARCH|TO|BIRGANYM|❤',
         sequenceColor: '#ff69b4', // Màu pink mẫu
         gift: './image/happy3.gif',
         enableBook: true,
@@ -368,7 +368,7 @@ function initializeDefaultSettings() {
             // --- Lembar 2 (data-page="1") ---
             { 
                 image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
-                content: 'Happy Birthday Sayang 💗' 
+                content: 'Happy 8 March Zhanym 💗' 
             },
             { 
                 image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
@@ -1326,10 +1326,10 @@ if (languageSwitchBtn) {
             window.settings = {
                 music: serverSettings.music || './music/happybirtday_uia.mp3',
                 countdown: serverSettings.countdown || 3,
-                matrixText: serverSettings.matrixText || 'HAPPYBIRTHDAY',
+                matrixText: serverSettings.matrixText || 'HAPPY8MARCH',
                 matrixColor1: serverSettings.matrixColor1 || '#ffb6c1',
                 matrixColor2: serverSettings.matrixColor2 || '#ffc0cb',
-                sequence: serverSettings.sequence || 'HAPPY|BIRTHDAY|TO|YOU|❤',
+                sequence: serverSettings.sequence || 'HAPPY|8 MARCH|TO|BIRGANYM|❤',
                 sequenceColor: serverSettings.sequenceColor || '#d39b9b',
                 gift: serverSettings.gift || '',
                 // ✅ Sửa logic boolean - kiểm tra chính xác giá trị
@@ -1400,10 +1400,10 @@ applySettingsButton.addEventListener('click', () => {
     // Cập nhật settings từ form
     settings.music = document.getElementById('backgroundMusic').value;
     settings.countdown = parseInt(document.getElementById('countdownTime').value) || 3;
-    settings.matrixText = document.getElementById('matrixText').value || 'HAPPYBIRTHDAY';
+    settings.matrixText = document.getElementById('matrixText').value || 'HAPPY8MARCH';
     settings.matrixColor1 = document.getElementById('matrixColor1').value;
     settings.matrixColor2 = document.getElementById('matrixColor2').value;
-    settings.sequence = document.getElementById('sequenceText').value || 'HAPPY|BIRTHDAY|MY|CUTEE|LITTLE|SWARALI|❤';
+    settings.sequence = document.getElementById('sequenceText').value || 'HAPPY|8 MARCH|TO|BIRGANYM|❤';
     settings.sequenceColor = document.getElementById('sequenceColor').value;
     settings.gift = document.getElementById('giftImage').value;
     
