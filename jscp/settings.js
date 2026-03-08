@@ -6,10 +6,10 @@ const applySettingsButton = document.getElementById('applySettings');
 let settings = {
     music: 'music/hbdmusic1.mp3',
     countdown: 3,
-    matrixText: 'HAPPYBIRTHDAY',
+    matrixText: 'HAPPY8MARCH',
     matrixColor1: '#ff69b4', // Màu pink mẫu
     matrixColor2: '#ff1493', // Màu pink mẫu
-    sequence: 'HAPPY|BIRTHDAY|TO|ANITA|❤',
+    sequence: 'HAPPY|8 MARCH|TO|BIRGANYM|❤',
     sequenceColor: '#ff69b4', // Màu pink mẫu
     gift: './image/happy3.gif',
     enableBook: true,
@@ -25,7 +25,7 @@ let settings = {
         // --- Lembar 2 (data-page="1") ---
         { 
             image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
-            content: 'Happy Birthday Sayang 💗' 
+            content: 'Happy 8 March 💗' 
         },
         { 
             image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
